@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-talktofill",
+  "version": "1.0.6",
+  "description": "Personal Eslint Style",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint rules/*"
+  },
+  "homepage": "https://github.com/fill-lima",
+  "author": "Guedes Lima, Felipe (talktofill@gmail.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-vue": "^5.2.2"
+  },
+  "peerDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
